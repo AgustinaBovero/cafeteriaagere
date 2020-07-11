@@ -1,0 +1,46 @@
+.navigation {
+    font-size: $large;
+    font-weight: $pt-regular;
+    font-family: $pt-mono;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header__title-h1{
+  font-size: $xxx-large;
+  font-weight: $pt-regular;
+  font-family: $pt-mono;
+}
+
+.header__title-p{
+  font-size: $large;
+  font-weight: $pt-regular;
+  font-family: $roboto;
+}
+
+.contact__text-h2{
+  font-size: $x-large;
+  font-weight: $pt-regular;
+  font-family: $pt-mono;
+}
+
+.contact__text-p {
+  font-size: $medium;
+  font-weight: $pt-regular;
+  font-family: $roboto;
+}
+
+.header__info-varieties-h2, .header__info-countries-h2, .header__info-accessories-h2{
+  font-size: $xx-large;
+  font-weight: $pt-regular;
+  font-family: $pt-mono;
+}
+
+.header__info-varieties-p, .header__info-countries-p, .header__info-accessories-p{
+  font-size: $small;
+  font-weight: $pt-regular;
+  font-family: $roboto;
+}

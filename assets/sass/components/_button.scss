@@ -1,0 +1,29 @@
+.navigation__buttom-green{
+    background-color: $shiny;
+    color: $white;
+    padding: .4rem 1rem;
+}
+
+.navigation__buttom-green:hover{
+    background-color: $pastel-gray;
+    color: $quicksilver;
+}
+
+.navigation__buttom-white{
+    border: 1px solid $quicksilver;
+    color: $quicksilver;
+    padding: .4rem 1rem;
+}
+
+.navigation__buttom-white:hover{
+    border: 1px solid $black;
+    color: $black;
+}
+
+.navigation__item{
+  color: $quicksilver;
+  }
+
+.navigation__item:hover{
+  color: $black;
+    }

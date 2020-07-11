@@ -1,0 +1,48 @@
+.contact{
+  display: flex;
+  height: 15rem;
+  flex-direction: row;
+  }
+
+.contact__text{
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+  margin-top: 1rem;
+  width: 20rem;
+  }
+
+.contact__text-h2{
+  margin-bottom: 0;
+  }
+
+.contact__image-maps{
+  height: 12rem;
+  margin-left: 14rem;
+  margin-top: 1rem;
+  position: absolute;
+  }
+
+.contact__image-coffee{
+  width: 5rem;
+  height: 8rem;
+  margin-left: 27rem;
+  z-index: 2;
+  position: absolute;
+  }
+
+.contact__image-cup{
+  height: 15rem;
+  z-index: 1;
+  position: absolute;
+  margin-left: 28rem;
+  }
+
+.contact__rectangle-blue{
+  height: 13rem;
+  width: 26rem;
+  background-color: $blue-france;
+  position: absolute;
+  z-index: -1;
+  margin-left: 30rem;
+  }

@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.navigation {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "PT Mono", monospace;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header__title-h1 {
+  font-size: 70px;
+  font-weight: 400;
+  font-family: "PT Mono", monospace;
+}
+
+.header__title-p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.contact__text-h2 {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "PT Mono", monospace;
+}
+
+.contact__text-p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.header__info-varieties-h2, .header__info-countries-h2, .header__info-accessories-h2 {
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "PT Mono", monospace;
+}
+
+.header__info-varieties-p, .header__info-countries-p, .header__info-accessories-p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  display: flex;
+  height: 28rem;
+  flex-direction: row;
+}
+
+.header__title {
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__title-p {
+  margin-top: 0;
+}
+
+.header__title-h1 {
+  margin-bottom: 1rem;
+}
+
+.header__info {
+  background-color: #FFF;
+  height: 8rem;
+  width: 30rem;
+  position: absolute;
+  z-index: 1;
+  margin-left: -35rem;
+  margin-top: 20rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header__info-varieties, .header__info-countries, .header__info-accessories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.header__info-varieties-h2, .header__info-countries-h2, .header__info-accessories-h2 {
+  margin-bottom: 0rem;
+  padding-bottom: 0rem;
+}
+
+.header__info-varieties-p, .header__info-countries-p, .header__info-accessories-p {
+  padding-top: 0rem;
+}
+
+.header__image {
+  z-index: -1;
+}
+
+.header__square-coral {
+  background-color: #F1DD7B;
+  height: 8rem;
+  width: 8rem;
+  position: absolute;
+  z-index: -1;
+  margin-top: 20rem;
+  margin-left: -5rem;
+}
+
+.header__square-flame {
+  background-color: #E4572E;
+  height: 8rem;
+  width: 8rem;
+  position: absolute;
+  z-index: 1;
+  margin-top: 18rem;
+  margin-left: -6rem;
+}
+
+i {
+  position: absolute;
+  z-index: 2;
+  color: #FFF;
+  margin-top: 19rem;
+  margin-left: -4rem;
+}
+
+.navigation {
+  display: flex;
+  height: 5rem;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.navigation__logo {
+  height: 80%;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.navigation__menu {
+  flex-grow: 1;
+  display: flex;
+}
+
+.navigation__button {
+  margin-top: 2rem;
+  margin-right: 3rem;
+}
+
+.navigation__buttom-white {
+  padding-right: 1rem;
+}
+
+.navigation__item {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.contact {
+  display: flex;
+  height: 15rem;
+  flex-direction: row;
+}
+
+.contact__text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+  margin-top: 1rem;
+  width: 20rem;
+}
+
+.contact__text-h2 {
+  margin-bottom: 0;
+}
+
+.contact__image-maps {
+  height: 12rem;
+  margin-left: 14rem;
+  margin-top: 1rem;
+  position: absolute;
+}
+
+.contact__image-coffee {
+  width: 5rem;
+  height: 8rem;
+  margin-left: 27rem;
+  z-index: 2;
+  position: absolute;
+}
+
+.contact__image-cup {
+  height: 15rem;
+  z-index: 1;
+  position: absolute;
+  margin-left: 28rem;
+}
+
+.contact__rectangle-blue {
+  height: 13rem;
+  width: 26rem;
+  background-color: #3C91E6;
+  position: absolute;
+  z-index: -1;
+  margin-left: 30rem;
+}
+
+.navigation__buttom-green {
+  background-color: #4CA866;
+  color: #FFF;
+  padding: 0.4rem 1rem;
+}
+
+.navigation__buttom-green:hover {
+  background-color: #BDDFC7;
+  color: #A2A2A2;
+}
+
+.navigation__buttom-white {
+  border: 1px solid #A2A2A2;
+  color: #A2A2A2;
+  padding: 0.4rem 1rem;
+}
+
+.navigation__buttom-white:hover {
+  border: 1px solid #000000;
+  color: #000000;
+}
+
+.navigation__item {
+  color: #A2A2A2;
+}
+
+.navigation__item:hover {
+  color: #000000;
+}
+
+/*# sourceMappingURL=main.css.map */

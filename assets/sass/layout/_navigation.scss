@@ -1,0 +1,33 @@
+.navigation{
+  display: flex;
+  height: 5rem;
+  flex-direction: row;
+  justify-content: flex-end;
+  }
+
+
+.navigation__logo{
+  height: 80%;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.navigation__menu{
+  flex-grow: 1;
+  display: flex;
+}
+
+.navigation__button{
+  margin-top: 2rem;
+  margin-right: 3rem;
+}
+
+.navigation__buttom-white{
+  padding-right: 1rem;
+}
+
+.navigation__item{
+  margin-left: 2rem;
+  margin-top: 2rem;
+
+}

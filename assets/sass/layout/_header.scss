@@ -1,0 +1,80 @@
+.header{
+  display: flex;
+  height: 28rem;
+  flex-direction: row;
+  }
+
+.header__title{
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  }
+
+.header__title-p {
+  margin-top: 0;
+  }
+
+.header__title-h1{
+  margin-bottom: 1rem;
+  }
+
+.header__info{
+ background-color: $white;
+ height: 8rem;
+ width: 30rem;
+ position: absolute;
+ z-index: 1;
+ margin-left: -35rem;
+ margin-top: 20rem;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+  }
+
+.header__info-varieties, .header__info-countries, .header__info-accessories{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem;
+  }
+
+.header__info-varieties-h2, .header__info-countries-h2, .header__info-accessories-h2{
+ margin-bottom: 0rem;
+ padding-bottom: 0rem;
+  }
+
+.header__info-varieties-p, .header__info-countries-p, .header__info-accessories-p{
+   padding-top: 0rem;
+  }
+
+.header__image{
+ z-index: -1;
+  }
+
+.header__square-coral{
+ background-color: $buff;
+ height: 8rem;
+ width: 8rem;
+ position: absolute;
+ z-index: -1;
+ margin-top: 20rem;
+ margin-left: -5rem;
+  }
+
+.header__square-flame{
+ background-color: $flame;
+ height: 8rem;
+ width: 8rem;
+ position: absolute;
+ z-index: 1;
+ margin-top: 18rem;
+ margin-left: -6rem;
+  }
+
+i {
+ position: absolute;
+ z-index: 2;
+ color: $white;
+ margin-top: 19rem;
+ margin-left: -4rem;
+  }
